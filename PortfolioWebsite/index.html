@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<script>
+    $(function() {
+        $("#nav-placeholder").load("NavigationBar.html");
+    });
+</script>
+
+<div id="index-content">
+    <div id="name">Stephen J. Holmes</div>
+    <div id="welcome-message">Welcome to my portfolio website!</div>
+</div>    
+</body>
+</html>

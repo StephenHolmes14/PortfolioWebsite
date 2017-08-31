@@ -1,0 +1,35 @@
+﻿body {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+
+span {
+    font-style: italic;
+}
+
+#index-content {
+    background-color: darkslategrey;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    height: 300px;
+    font-family: "Volkhov",serif;
+    color: white;
+}
+
+#name {
+    font-size: 4em;
+    padding-top: 50px;
+}
+
+#welcome-message {
+    letter-spacing: 2px;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
