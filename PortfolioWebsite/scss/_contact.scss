@@ -6,7 +6,7 @@
   border-bottom: 1px solid $gray-lighter;
   input,
   textarea {
-    font-size: 1.5em;
+    font-size: 1em;
     position: relative;
     z-index: 1;
     padding-right: 0;
@@ -48,7 +48,7 @@
 
 .floating-label-form-group-with-focus {
   label {
-    color: $theme-success;
+    color: $secondary-colour;
   }
 }
 form .row:first-child .floating-label-form-group {
@@ -62,13 +62,13 @@ footer {
   }
   .footer-above {
     padding-top: 50px;
-    background-color: $theme-primary;
+    background-color: $main-colour;
   }
   .footer-col {
     margin-bottom: 50px;
   }
   .footer-below {
     padding: 25px 0;
-    background-color: darken($theme-primary, .05);
+    background-color: darken($main-colour, .05);
   }
 }

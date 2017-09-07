@@ -17,7 +17,7 @@
         -moz-transition: all ease 0.5s;
         transition: all ease 0.5s;
         opacity: 0;
-        background: fade-out($theme-success, .1);
+        background: fade-out($secondary-colour, .1);
         &:hover {
           opacity: 1;
         }
@@ -102,7 +102,7 @@
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       transform: rotate(45deg);
-      background-color: $theme-primary;
+      background-color: $main-colour;
       .rl {
         /* Safari and Chrome */
         z-index: 1052;
@@ -112,7 +112,7 @@
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
-        background-color: $theme-primary;
+        background-color: $main-colour;
       }
     }
   }

@@ -15,8 +15,9 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
@@ -28,7 +29,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">S.Holmes</a>
+        <a class="navbar-brand js-scroll-trigger rounded" href="#page-top">S.Holmes</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
         </button>
@@ -57,10 +58,9 @@
     <!-- Header -->
     <header class="masthead">
       <div class="container">
-        <img class="img-fluid" src="img/profile.png" alt="">
         <div class="intro-text">
           <span class="name">Stephen Holmes</span>
-            <hr class="rounded" style="height:5px; background-color:white; width: 66%;">
+            <hr class="rounded">
           <span class="skills">Final Year Computer Science &amp; Mathematics Student</span>
         </div>
       </div>
@@ -72,11 +72,19 @@
       <section id="experience">
           <div class="container">
               <h2 class="text-center">Work Experience</h2>
-              <hr class="rounded" style="height:5px; background-color:#212529; width: 66%;">
+              <hr class="rounded">
               <div class="row">
                   <div class="col-lg-8 mx-auto">
-                      <h3>Software Engineer at Weatherford</h3>
-                      <p>A 13 month student software engineering placement at Weatherford. During the first 6 months I worked on the data delivery website <a href="https://www.previewdata.com">PreView Data</a>. The website used an MVC pattern as well as an MVVM pattern and implemented technologies such as TypeScript, Knockout and Entity Framework. Unit tests were written for developements, Jasmine was used for JavaScript/TypeScript tests and nUnit for C# tests. The remainder of my time at Weatherford was within the testing team working on automated UI tests which used the TestStack White framework.</p>
+                    <div class="info-block">
+                      <div class="info">
+                        <div>
+                          <h3>Software Engineer</h3>
+                          <h6>Weatherford</h6>
+                        </div>
+                      </div>
+                      <div class="info-dates">July 2016 - August 2017</div>
+                    </div>
+                    <p>A 13 month student software engineering placement at Weatherford. During the first 6 months I worked on the data delivery website <a href="https://www.previewdata.com">PreView Data</a>. The website used an MVC pattern as well as an MVVM pattern and implemented technologies such as TypeScript, Knockout and Entity Framework. Unit tests were written for developments, Jasmine was used for JavaScript/TypeScript tests and nUnit for C# tests. The remainder of my time at Weatherford was within the testing team working on automated UI tests which used the TestStack White framework.</p>
                   </div>
               </div>
           </div>
@@ -85,8 +93,8 @@
       <!-- Education Section -->
       <section class="success" id="education">
           <div class="container">
-              <h2 class="text-center">Education</h2>
-              <hr class="rounded" style="height:5px; background-color:white; width: 66%;">
+            <h2 class="text-center">Education</h2>
+            <hr class="rounded">
               <div class="row">
                   <div class="col-lg-8 mx-auto">
                       <h3>Computer Science &amp; Mathematics BSc</h3>
@@ -100,7 +108,7 @@
     <section id="portfolio">
       <div class="container">
         <h2 class="text-center">Portfolio</h2>
-        <hr class="rounded" style="height:5px; background-color:#212529; width: 66%;">
+        <hr class="rounded">
         <div class="row">
           <div class="col-sm-4 portfolio-item m-auto">
             <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
@@ -129,8 +137,8 @@
     <!-- About Section -->
     <section class="success" id="about">
         <div class="container">
-            <h2 class="text-center">About</h2>
-            <hr class="rounded" style="height:5px; background-color:white; width: 66%;">
+          <h2 class="text-center">About</h2>
+          <hr class="rounded">
             <div class="row">
                 <div class="col-lg-4 m-auto text-center">
                     <img class="img-fluid border-dark rounded" src="img/me-2.jpg" alt="">
@@ -140,7 +148,7 @@
                     <div class="m-auto card" style="padding:10px;color:#212529">
                         <h6>Key Skills</h6>
                         <ul>
-                            <li>C# ~ <b><i>Proficient</i></b></li>
+                            <li>C#</li>
                             <li>Algorithmic Mathematics</li>
                             <li>ASP.NET</li>
                             <li>C++</li>
@@ -169,9 +177,9 @@
     <section id="contact">
       <div class="container">
         <h2 class="text-center">Contact Me</h2>
-          <hr class="rounded" style="height:5px; background-color:#212529; width: 66%;">
+        <hr class="rounded">
         <div class="row">
-          <p class="text-center">Feel free to contact me using the form below, I'll reply within 24 hours where possible.</p>
+          <p class="text-center m-auto">Feel free to contact me using the form below, I'll reply within 24 hours where possible.</p>
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
@@ -239,7 +247,7 @@
                   </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="btn-social btn-outline" href="https://www.linkedin.com/in/stephen-holmes-698891114/">
+                    <a class="btn-social btn-outline" href="https://github.com/StephenHolmes14">
                         <i class="fa fa-fw fa-github"></i>
                     </a>
                 </li>
@@ -280,7 +288,7 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <h2>N-Queens Problem</h2>
-                  <hr class="rounded" style="height:5px; background-color:#212529; width: 66%;">
+                  <hr class="rounded">
                   <img class="img-fluid img-centered" src="img/portfolio/NQueensProblem.png" alt="">
                   <p>The N-Queens problem involves places N queens on an N x N chessboard in a way such that they won't be in conflict with eachother.</p>
                   <p> This project was coursework for my Artifical Intelligence module, the solution was for values 4 <= N <= 10.</p>
@@ -307,7 +315,7 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <h2>iBay Website</h2>
-                    <hr class="rounded" style="height:5px; background-color:#212529; width: 66%;">
+                  <hr class="rounded">
                   <img class="img-fluid img-centered" src="img/portfolio/iBayWebsite.png" alt="">
                   <p>This was a group project for which we were required to produce a working "ebay" style website. Users were able to login, register, buy items, add new product listings, quick search and advanced search. The website uses a MySQL database to store the data about items and users.</p>
                   <button class="btn btn-success" type="button" data-dismiss="modal">

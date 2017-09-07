@@ -10,7 +10,7 @@
   &:active,
   &:focus,
   &:hover {
-    color: $theme-success;
+    color: $secondary-colour;
     border: solid 2px white;
     background: white;
   }
@@ -18,12 +18,12 @@
 
 .btn-primary {
   font-weight: 700;
-  @include button-variant(white, $theme-primary, $theme-primary);
+  @include button-variant(white, $main-colour, $main-colour);
 }
 
 .btn-success {
   font-weight: 700;
-  @include button-variant(white, $theme-success, $theme-success);
+  @include button-variant(white, $secondary-colour, $secondary-colour);
 }
 
 .btn-social {

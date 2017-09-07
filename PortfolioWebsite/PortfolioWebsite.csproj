@@ -25,7 +25,9 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="css\freelancer.css" />
-    <Content Include="css\freelancer.min.css" />
+    <Content Include="css\freelancer.min.css">
+      <DependentUpon>freelancer.css</DependentUpon>
+    </Content>
     <Content Include="gulpfile.js" />
     <Content Include="img\portfolio\cabin.png" />
     <Content Include="img\portfolio\cake.png" />
@@ -107,6 +109,12 @@
     <Content Include="vendor\font-awesome\scss\_screen-reader.scss" />
     <Content Include="vendor\font-awesome\scss\_stacked.scss" />
     <Content Include="vendor\font-awesome\scss\_variables.scss" />
+    <None Include="bundleconfig.json" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="scss\_experience.scss" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
       <SubType>Designer</SubType>

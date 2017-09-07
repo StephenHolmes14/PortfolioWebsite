@@ -1,52 +1,66 @@
 // Styling for the navbar
 #mainNav {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  background: $theme-primary;
-  a:focus {
-    outline: none;
-  }
-  .navbar-brand {
-    font-size: 1.1rem;
-    color: white;
-    &.active,
-    &:active,
-    &:focus,
-    &:hover {
-      color: white;
-    }
-  }
-  .navbar-nav {
-    letter-spacing: 1px;
-    li.nav-item {
-      a.nav-link {
-        color: white;
-        &:hover {
-          color: $theme-success;
-          outline: none;
-        }
-        &:active,
-        &:focus {
-          color: white;
-        }
-      }
-    }
-  }
-  .navbar-toggler {
-    font-size: 14px;
-    padding: 11px;
+    font-family: 'Roboto', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     text-transform: uppercase;
-    color: white;
-    border-color: white;
-    &:focus,
-    &:hover {
-      color: white;
-      border-color: $theme-success;
-      background-color: $theme-success;
+    border: none;
+    background: $main-colour;
+
+    a:focus {
+        outline: none;
     }
-  }
+
+    .navbar-brand {
+        font-size: 1.1rem;
+        color: white;
+        font-family: 'Niconne', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        text-transform: none;
+        padding: 5px;
+        border: 1px solid white;
+        background-color: $secondary-colour;
+
+        &.active,
+        &:active,
+        &:focus,
+        &:hover {
+            color: white;
+        }
+    }
+
+    .navbar-nav {
+        letter-spacing: 1px;
+
+        li.nav-item {
+            a.nav-link {
+                color: white;
+
+                &:hover {
+                    color: $tertiary-colour;
+                    outline: none;
+                }
+
+                &:active,
+                &:focus {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .navbar-toggler {
+        font-size: 14px;
+        padding: 11px;
+        text-transform: uppercase;
+        color: white;
+        border-color: white;
+
+        &:focus,
+        &:hover {
+            color: white;
+            border-color: $secondary-colour;
+            background-color: $secondary-colour;
+        }
+    }
 }
 @media(min-width:992px) {
   #mainNav {
@@ -64,12 +78,12 @@
     .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
-      background: $theme-success;
+      background: $secondary-colour;
       &:active,
       &:focus,
       &:hover {
         color: white;
-        background: $theme-success;
+        background: $secondary-colour;
       }
     }
   }
