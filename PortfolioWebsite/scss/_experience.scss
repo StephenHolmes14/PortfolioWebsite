@@ -15,4 +15,12 @@
             }
         }
     }
+
+    a,
+    a.active,
+    a:active,
+    a:focus,
+    a:hover {
+        text-decoration: underline;
+    }
 }
