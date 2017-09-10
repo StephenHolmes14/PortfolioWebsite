@@ -2,9 +2,6 @@
   font-family: 'Roboto', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden; }
 
-p {
-  font-size: 20px; }
-
 p.small {
   font-size: 16px; }
 
@@ -28,11 +25,12 @@ h2 {
 .img-centered {
   margin: 0 auto; }
 
-hr {
+.horizontal-line {
   height: 3px;
   background-color: #212529;
   margin-top: 5px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  padding: 0; }
 
 section {
   padding: 100px 0; }
@@ -80,7 +78,7 @@ section.success {
   #mainNav .navbar-brand {
     font-size: 1.1rem;
     color: white;
-    font-family: 'Niconne', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Noto Serif','Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
     text-transform: none;
     padding: 5px;
     border: 1px solid white;
@@ -142,7 +140,7 @@ header.masthead {
     display: block;
     margin: 0 auto 20px; }
   header.masthead .intro-text .name {
-    font-family: 'Niconne', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Noto Serif','Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 4em;
     font-weight: 400;
     display: block; }
